@@ -74,21 +74,6 @@ Each module contains its own `pom.xml` and is managed through the main `digital-
 
 ---
 
-### 🚀 Deploy to WildFly
-
-1. Start WildFly and access the admin console (`http://localhost:9990`).
-
-2. Navigate to **Deployments → Add**.
-
-3. Select the generated EAR file:
-   `digital-evidence-ear/target/digital-evidence-ear.ear`
-
-4. Click **Next → Save → Enable**.
-
-5. Access the application at:
-   [http://localhost:8080/digital-evidence-web](http://localhost:8080/digital-evidence-web)
-
----
 
 ## JNDI Configuration in WildFly
 
